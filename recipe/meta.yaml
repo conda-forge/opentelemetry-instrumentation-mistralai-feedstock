@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-mistralai" %}
-{% set version = "0.40.5" %}
+{% set version = "0.40.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_mistralai-{{ version }}.tar.gz
-  sha256: 8e1a1b6fbe1b4078d06ee1c216ae79bb4c955996f0bd2288708248d10f7676d1
+  sha256: c66817c18610fa6a8717dee0935ad624896443a5c8f7c038c467975e8e1b94b3
 
 build:
   noarch: python
@@ -24,7 +24,7 @@ requirements:
     - opentelemetry-api >=1.28.0,<2.0.0
     - opentelemetry-instrumentation >=0.50b0
     - opentelemetry-semantic-conventions >=0.50b0
-    - opentelemetry-semantic-conventions-ai 0.4.8
+    - opentelemetry-semantic-conventions-ai 0.4.9
 
 test:
   imports:
