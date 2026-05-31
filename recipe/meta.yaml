@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-mistralai" %}
-{% set version = "0.60.0" %}
+{% set version = "0.61.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_mistralai-{{ version }}.tar.gz
-  sha256: f0dd13d0bf0414ab166cc64d52634b4ed7374202f31aa5d782d28b5aae94c5f1
+  sha256: d3923fb1ce78db37a419411e173c9e6d7aa9f7181da341e1ac7ad41774edfdfc
 
 build:
   noarch: python
