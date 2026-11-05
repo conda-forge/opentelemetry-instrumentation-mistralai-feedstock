@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: opentelemetry-instrumentation-mistralai
-  version: "0.62.4"
+  version: "0.63.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/opentelemetry_instrumentation_mistralai-${{ version }}.tar.gz
-  sha256: cc8f379420b809c3f20b18a0670978a6917d720f44df2f1f2f4db220c065a1b2
+  sha256: adff05d6d713b6267c7dfe23de3d483d93339fdfc5c159cf8566352d00f1c76a
 
 build:
   number: 0
